@@ -54,7 +54,7 @@ st.markdown("""
         letter-spacing: 1px;
     }
     </style>
-""", unsafe_scale=True, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # 2. Header / Project Title Section
 col_title, col_badges = st.columns([2, 1])

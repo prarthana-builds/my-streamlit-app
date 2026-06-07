@@ -4,7 +4,7 @@ import time
 
 # 1. Page Configuration & Custom Theme (Dark Mode)
 st.set_page_config(
-    page_title="AI-Based Waste Segregation Bin",
+    page_title="ML-Based Waste Segregation Bin",
     page_icon="♻️",
     layout="wide"
 )

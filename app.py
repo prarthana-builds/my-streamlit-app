@@ -60,7 +60,7 @@ st.markdown("""
 col_title, col_badges = st.columns([2, 1])
 
 with col_title:
-    st.markdown("## ♻️ AI-Based Waste Segregation Bin")
+    st.markdown("## ♻️ ML-Based Waste Segregation Bin")
     st.markdown("<p style='color:#8A94A6; margin-top:-15px;'>Real-time waste detection and classification</p>", unsafe_allow_html=True)
 
 with col_badges:

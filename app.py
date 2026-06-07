@@ -4,7 +4,7 @@ import time
 
 # 1. Page Configuration & Custom Theme (Dark Mode)
 st.set_page_config(
-    page_title="ML-Based Waste Segregation Bin",
+    page_title="ML-Based Waste Classification Bin",
     page_icon="♻️",
     layout="wide"
 )
@@ -60,7 +60,7 @@ st.markdown("""
 col_title, col_badges = st.columns([2, 1])
 
 with col_title:
-    st.markdown("## ♻️ ML-Based Waste Segregation Bin")
+    st.markdown("## ♻️ ML-Based Waste Classification Bin")
     st.markdown("<p style='color:#8A94A6; margin-top:-15px;'>Real-time waste detection and classification</p>", unsafe_allow_html=True)
 
 with col_badges:
